@@ -1,6 +1,5 @@
 # webbsalad.github.io
-учебный
-
+не учебный
 
 ```Python
 print(1)
