@@ -1,5 +1,7 @@
-# webbsalad.github.io
-не учебный
+<body style="background-color: #bdd4f2">
+    
+# сайт для публикации задани Суворова Романа (ИВТ 2.1)
+учебный
 
 ```Python
 print(1)
@@ -11,9 +13,4 @@ print(1)
 
 ----
 
-# следуюзая страница
-<html>
-    <p style="background-color: red;">
-        что-то
-    </p>
-</html>
+</body>
