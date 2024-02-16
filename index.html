@@ -1,32 +1,29 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="static/style.css">
-<title>Welcome to Портфолио! — Портфолио</title>
-<body>
-  <header>
-    <h1>Портфолио</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Welcome</a></li>
-        
-          <li><a href="blog/">Blog</a></li>
-        
-          <li><a href="projects/">Projects</a></li>
-        
-          <li><a href="about/">About</a></li>
-        
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
-  <h2>Welcome to Портфолио!</h2>
-  <p>This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.</p>
+{% extends 'base.html' %}
 
+{% block content %}
 
-  </div>
-  <footer>
-    &copy; Copyright 2024 by Суворов Роман.
-  </footer>
-</body>
+    <div class="card-header text-center">
+        <h1> Суворов Роман </h1>
+        <p>Студент РГПУ им. Герцена, ИИТТО, ИВТ 2 курс</p>
+        <p>Данное портфолио создано студентом РГПУ имени Герцена с целью размещения на нем информации о выполненных работах </p>
+
+        <h3>Ссылка на профили replit с выполненными работами: </h3>
+            <a href="/explanation">
+                <button class="btn btn-primary"> Пояснение </button>
+            </a>
+
+            <a href="/prog">
+                <button class="btn btn-primary"> ПРОГ4 </button>
+            </a>
+            
+            <a href="/cw">
+                <button class="btn btn-primary"> КП </button>
+            </a><br><br>
+
+            <a href="https://t.me/webbbsalad">
+                <button class="btn btn-primary">Telegram</button>
+            </a>
+
+    </div>
+
+{% endblock %}
